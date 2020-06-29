@@ -1,0 +1,37 @@
+
+
+
+/* Área de cabeçalho  */
+
+#conteudo .header-academia div .white-color {
+  color: #fff!important;
+}
+
+.header-academia div {
+  display: inline-block;
+  width: 100%;
+}
+
+.header-academia h2 {
+  background: #06275d;
+  width: max-content;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-left: 35px solid;
+  border-color: #3fa9f5;
+  display: flex;
+  float: left;
+
+}
+
+.header-academia div #link-servico {
+  text-align: center;
+  background: #06275d;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 10px 25px;
+  min-width: 300px;
+  float: right;
+}
