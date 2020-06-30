@@ -1,5 +1,17 @@
 
 
+/* Slider */
+
+.slider {
+  width: 100%;
+  height: 500px;
+  background: #06275d;
+  margin: 30px 0;
+  background-image: url(../img/slider.jpeg);
+    background-size: cover;
+  background-position: 50%;
+
+}
 
 /* Área de cabeçalho  */
 
@@ -34,4 +46,30 @@
   padding: 10px 25px;
   min-width: 300px;
   float: right;
+}
+
+/* Modalidade */
+
+.modalidades {
+  position: fixed;
+  bottom: 0;
+  background: #0b2860;
+  color: #fff;
+  z-index: 99999;
+}
+
+.modalidades .titulo-wrapper {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  background: #3fa9f5;
+}
+
+.modalidades .titulo-wrapper p {
+  margin: auto;
+  padding: 20px 60px;
+  margin-left: 0;
+  font-weight: bolder;
+  font-size: 16px;
 }

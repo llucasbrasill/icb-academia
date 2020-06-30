@@ -234,13 +234,15 @@
 
 <div id="conteudo" class="acessibilidade m-auto container row p-0">
   <ul id="breadcrumbs" class="container wrapper breadcrumb"><li class="item-home"><a class="bread-link bread-home" href="https://www.iateclubedebrasilia.com.br" title="Home /">Home /</a></li><li class="item-current item-6599"><span class="bread-current bread-6599"> DEV</span></li></ul>
-  <main id="content" class="col-md-12" tabindex="-1" role="main">
+  <main id="content" class="col-md-12 p-0 m-auto" tabindex="-1" role="main">
     <article id="" class="">
       <header class="entry-header"><h1 class="entry-title">Academia</h1></header>
       <div class="entry-content">
 
         <!-- Slider -->
-        <div class="slider"></div>
+        <div class="slider">
+
+        </div>
 
         <!-- Header of content -->
 
@@ -258,10 +260,259 @@
           </div>
 
         </div>
+
+        <div class="conteudo-academia">
+          <h4>Marcar Aula</h4>
+          <ul class="">
+            <li>
+                <span>GINÁSTICA LOCALIZADA</span>
+                <span>15 PESSOAS</span>
+            </li>
+
+            <li>
+              <span>GINÁSTICA LOCALIZADA</span>
+              <span>15 PESSOAS</span>
+            </li>
+
+            <li>
+              <span>GINÁSTICA LOCALIZADA</span>
+              <span>15 PESSOAS</span>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <form method="post" name="form1" action="serv-agenda-academia.jsp">
+            <input type="hidden" name="app" value="3230">
+            <input type="hidden" name="acao" id="acao" value="">
+            <input type="hidden" name="data" id="data" value="">
+            <table width="100%">
+              <tbody><tr>
+                <td>
+                  <b>Mês:</b><br>
+                  <select name="mes">
+                    <option value="1">Janeiro</option>
+                    <option value="2">Fevereiro</option>
+                    <option value="3">Março</option>
+                    <option value="4">Abril</option>
+                    <option value="5">Maio</option>
+                    <option value="6" selected="">Junho</option>
+                    <option value="7">Julho</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Setembro</option>
+                    <option value="10">Outubro</option>
+                    <option value="11">Novembro</option>
+                    <option value="12">Dezembro</option>
+                  </select>
+                </td>
+                <td>
+                  <b>Ano:</b><br>
+                  <select name="ano">
+                    <option value="2019">2019</option>
+                    <option value="2020" selected="">2020</option>
+                  </select>
+                </td>
+                <td>
+                  <b>Serviço:</b><br>
+                  <select name="idServico">
+                    <option value="29" selected="">ABDOMINAL - 10 PESSOAS POR AULA</option>
+                    <option value="30">ABDOMINAL - 15 PESSOAS POR AULA</option>
+                    <option value="23">ALONGAMENTO - 10 PESSOAS POR AULA</option>
+                    <option value="24">ALONGAMENTO - 15 PESSOAS POR AULA </option>
+                    <option value="36">ALONGAMENTO POSTURAL H. - 10 PESSOAS</option>
+                    <option value="7">AVALIAÇÃO FÍSICA</option>
+                    <option value="25">CYCLING - 10 PESSOAS POR AULA </option>
+                    <option value="40">FISIOTERAPIA </option>
+                    <option value="26">GINÁSTICA - 15 PESSOAS POR AULA </option>
+                    <option value="31">GLÚTEO E COXA - 10 PESSOAS</option>
+                    <option value="32">GLÚTEO E COXA - 15 PESSOAS</option>
+                    <option value="27">IATE CROSS - 10 PESSOAS POR AULA </option>
+                    <option value="28">IATE CROSS - INICIANTE - 15 PESSOAS </option>
+                    <option value="5">MONTAGEM DE SÉRIE</option>
+                    <option value="22">MUSCULAÇÃO - 40 PESSOAS POR HORA </option>
+                    <option value="39">NUTRIÇÃO</option>
+                    <option value="41">PILATES</option>
+                    <option value="35">PILATES NO SOLO - 10 PESSOAS POR AULA </option>
+                    <option value="42">POWER PLATE</option>
+                    <option value="34">RITMOS - 15 PESSOAS POR AULA </option>
+                    <option value="37">TREINAMENTO FUNCIONAL - 10 PESSOAS</option>
+                    <option value="38">TREINAMENTO TOTAL - 15 PESSOAS POR AULA </option>
+                    <option value="33">YOGA - 10 PESSOAS POR AULA </option>
+                  </select>
+                </td>
+                <td>
+                  <b>Profissional:</b><br>
+                  <select name="idFuncionario" class="campoSemTamanho alturaPadrao larguraCidade">
+                    <option value="0">TODOS</option>
+                    <option value="6730">ABDOMINAL</option>
+                    <option value="4262">ALISSON CAMPOS BUTENCO</option>
+                    <option value="6726">ALONGAMENTO</option>
+                    <option value="6736">ALONGAMENTO POSTURAL HOLÍSTICO</option>
+                    <option value="5652">ANDREIA APARECIDA ALVES DE ALMEIDA</option>
+                    <option value="640">CIBELE BAENA PEREIRA</option>
+                    <option value="4607">CINTHIA MATEUS BATISTA</option>
+                    <option value="6727">CYCLING</option>
+                    <option value="4887">DANILO WERNECK MOTA</option>
+                    <option value="3345">EVANDRO DE LIMA</option>
+                    <option value="6005">FABRICIO JOSE RORIZ DE OLIVEIRA</option>
+                    <option value="6676">FERNANDA DIAS DUARTE</option>
+                    <option value="6030">FERNANDO SANTOS DE JESUS</option>
+                    <option value="1901">FLAVIA MONTEIRO SAMPAIO</option>
+                    <option value="6728">GINASTICA LOCALIZADA</option>
+                    <option value="6731">GLUTEO E COXA</option>
+                    <option value="6729">IATE CROSS</option>
+                    <option value="6733">IATE CROSS N1</option>
+                    <option value="3272">JORGE HENRIQUE SILVA DA CUNHA</option>
+                    <option value="6358">LAURA BIANCA PIRES</option>
+                    <option value="4213">LEANDRA ALVARENGA R. MARQUES</option>
+                    <option value="6156">LEONARDO EULER AIRES DOS SANTOS</option>
+                    <option value="2029">MARLUS ROGERIO V. PADOVAN</option>
+                    <option value="6725">MUSCULACAO</option>
+                    <option value="4543">OSMAN LOPES DE LUCENA JUNIOR</option>
+                    <option value="2821">OSWALDO ANDRE K B MARTINS</option>
+                    <option value="4983">PATRICIA ALVES VAZ</option>
+                    <option value="6735">PILATES NO SOLO</option>
+                    <option value="2140">RAYANA BEZERRA L. SILVA</option>
+                    <option value="6164">RENATO AZEVEDO SILVA</option>
+                    <option value="6734">RITMOS</option>
+                    <option value="5932">SANDRA CRISTINA REIS</option>
+                    <option value="2597">SEBASTIAO CHAVES DE O . JUNIOR</option>
+                    <option value="6351">SUELENE SILVA E SOUZA</option>
+                    <option value="6737">TREINAMENTO FUNCIONAL TRADICIONAL</option>
+                    <option value="6741">TREINO TOTAL</option>
+                    <option value="3254">VINICIUS SANTOS COELHO</option>
+                    <option value="5698">WALDIR G DOS SANTOS</option>
+                    <option value="6359">WASHINGTON NERY DOS SANTOS JUNIOR</option>
+                    <option value="6732">YOGA</option>
+                  </select>
+                </td>
+                <td>
+                  <b>Turno:</b><br>
+                  <select name="turno" class="campoSemTamanho alturaPadrao ">
+                    <option value="0" selected="">TODOS</option>
+                    <option value="M">Manhã</option>
+                    <option value="T">Tarde</option>
+                    <option value="N">Noite</option>
+                  </select>
+                </td>
+                <td style="vertical-align: middle;">
+                  <h2 class="p4-1"> <a href="javascript:validaForm();"><div class="figura22">Consultar</div></a></h2>
+                </td>
+              </tr>
+              </tbody></table>
+            <table>
+              <tbody><tr>
+                <td style="vertical-align: middle;">
+                  <img src="images/ocupado_r.png" style="width:25px; height:25px;margin-top: 0px;">
+                </td>
+                <td style="vertical-align: middle;">
+                  <div class="legendaSemMargem" style="margin-top: 0px;"> &nbsp;- Agenda lotada</div>
+                </td>
+                <td style="vertical-align: middle;">
+                  <img src="images/livre_r.jpg" style="width:30px; height:25px; margin-top: 0px;margin-left: 30px;">
+                </td>
+                <td style="vertical-align: middle;">
+                  <div class="legendaSemMargem" style="margin-top: 0px;"> &nbsp;- Vaga Disponível</div>
+                </td>
+                <td style="vertical-align: middle;">
+                  <img src="images/Sem_Agenda.png" style="width:23px; height:23px; margin-top: 0px;">
+                </td>
+                <td style="vertical-align: middle;">
+                  <div class="legendaSemMargem" style="margin-top: 0px;margin-left: 30px;"> &nbsp;- Sem agenda</div>
+                </td>
+              </tr>
+              </tbody></table>
+            <div class="divisoria"></div>
+          </form>
+          <br>
+          <table id="tabela" width="100%">
+            <thead>
+            <tr>
+              <th scope="col" align="center" style="border: 1px solid !important; background:#f4f9fe" width="14%">Domingo</th>
+              <th scope="col" align="center" style="border: 1px solid !important; background:#f4f9fe" width="14%">Segunda-feira</th>
+              <th scope="col" align="center" style="border: 1px solid !important; background:#f4f9fe" width="14%">Terça-feira</th>
+              <th scope="col" align="center" style="border: 1px solid !important; background:#f4f9fe" width="14%">Quarta-feira</th>
+              <th scope="col" align="center" style="border: 1px solid !important; background:#f4f9fe" width="14%">Quinta-feira</th>
+              <th scope="col" align="center" style="border: 1px solid !important; background:#f4f9fe" width="14%">Sexta-feira</th>
+              <th scope="col" align="center" style="border: 1px solid !important; background:#f4f9fe" width="14%">Sábado</th>
+            </tr>
+            </thead>
+            <tbody style="">
+            <tr>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+            </tr><tr>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+            </tr><tr>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+            </tr><tr>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+            </tr><tr>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaLiberado" align="center">
+                <a onclick="if (!window.__cfRLUnblockHandlers) return false; agendaDia('29/06/2020')" href="#">
+                  <b>29/06/2020</b>
+                  <br>
+                  <img src="images/livre_r.jpg">
+                </a>
+              </td>
+              <td class="column1 diaLiberado" align="center">
+                <a onclick="if (!window.__cfRLUnblockHandlers) return false; agendaDia('30/06/2020')" href="#">
+                  <b>30/06/2020</b>
+                  <br>
+                </a>
+              </td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+              <td class="column1 diaBloqueado" align="center"></td>
+            </tr></tbody>
+          </table>
+          <p>&nbsp;</p>
+          <h5 class="p4-1"><a href="serv-apresen.jsp">Voltar para serviços on line</a></h5>
+        </div>
+
+        <div class="modalidades container row p-0 m-auto">
+
+          <div class="row col-3 p-0 m-0 titulo-wrapper">
+            <p>Modalidades</p>
+          </div>
+
+          <div class="row col-9">
+            ALONGAMENTO - YOGA - CYCLING - IATE CROSS - TREINAMENTO FUNCIONAL - RÍTMOS - POWER PLATE - PILATES MÁQUINA - NUTRIÇÃO - MUSCULAÇÃO ERGOMETRIA - MONTAGEM DE SÉRIE
+          </div>
+
+        </div>
       </div>
     </article>
   </main>
 </div>
+
+
+
 
 <footer id="rodape" class="container" role="contentinfo">
   <div class="top-container row">

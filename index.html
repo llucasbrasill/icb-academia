@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -24,8 +24,32 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header></header>
+
+  Content.
+
+  <footer></footer>
+
+  <!-- Loading Header and Footer  -->
+
+  <script>
+    fetch("http://www.iateclubedebrasilia.com.br/2020/06/27/melhorias-no-setor-nautico-2/", {mode: 'no-cors'})
+      .then(response => {
+        return response.text()
+      })
+      .then(data => {
+        console.log(data);
+        document.querySelector("header").innerHTML = data;
+      });
+
+    fetch("http://www.iateclubedebrasilia.com.br/2020/06/27/melhorias-no-setor-nautico-2/", {mode: 'no-cors'})
+      .then(response => {
+        return response.text()
+      })
+      .then(data => {
+        document.querySelector("footer").innerHTML = data;
+      });
+  </script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
