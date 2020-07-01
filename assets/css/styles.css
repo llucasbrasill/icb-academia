@@ -1,4 +1,8 @@
 
+
+body {
+  margin-bottom: 80px;
+}
 /* Login Academia */
 
 .login-academia {
@@ -298,36 +302,39 @@
 }
 
 
-/* Tabela disponibilidade de serviços */
+/* Tabela confirmacao */
 
-.disponibilidade-vagas-academia {
-  border-top: 2px solid #0d2860;
+.confirmar-vagas-academia {
   border-bottom: 2px solid #0d2860;
-  margin: 30px 0;
+  padding-bottom: 15px;
+  padding-bottom: 40px!important;
+  margin: 30px 0 0 0;
 }
 
-.disponibilidade-vagas-academia h5 {
+.confirmar-vagas-academia h5 {
   padding: 15px 0;
   font-weight: bolder;
   color: #0d2860;
 }
-.tabela-disponibilidade-vagas {}
+.confirmar-vagas-academia {}
 
-.tabela-disponibilidade-vagas thead {
+.confirmar-vagas-academia thead {
 
 }
 
-.tabela-disponibilidade-vagas thead tr {
-  background: #0d2860;
-  color: #fff
+.confirmar-vagas-academia thead tr {
+
+
 }
 
-.tabela-disponibilidade-vagas thead tr th {
+.confirmar-vagas-academia thead tr th {
   padding: 10px 5px;
   width: 25%;
+  color: #0a2860;
+  font-size: 24px;
 }
 
-.tabela-disponibilidade-vagas tbody tr td, .tabela-disponibilidade-vagas tbody tr th {
+.confirmar-vagas-academia tbody tr td, .confirmar-vagas-academia tbody tr th {
   padding: 10px 5px;
   width: 25%;
   color: #0d2860;
@@ -360,10 +367,22 @@
 .comprovante-vagas-academia thead tr th {
   padding: 10px 5px;
   width: 25%;
+  color: #0a2860;
+  font-size: 24px;
 }
 
 .comprovante-vagas-academia tbody tr td, .comprovante-vagas-academia tbody tr th {
   padding: 10px 5px;
   width: 25%;
   color: #0d2860;
+}
+
+
+.btn-academia {
+  background: #0a2860;
+  border: 0;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #fff;
 }
