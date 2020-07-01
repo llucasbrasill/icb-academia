@@ -262,8 +262,17 @@ body {
 
 #conteudo #agendamentos tbody tr td a {
   color: #fff!important;
+  display: inline-flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
 }
 
+
+#conteudo #agendamentos tbody tr td a span {
+  font-size: 13px;
+  font-weight: 500;
+}
 
 /* Tabela disponibilidade de serviços */
 
