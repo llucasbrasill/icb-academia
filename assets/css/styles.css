@@ -1,5 +1,74 @@
 
+/* Login Academia */
 
+.login-academia {
+  background: #000000ad;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999999999999999999999;
+  position: fixed;
+  display: flex;
+
+}
+
+.aviso-login-academia {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.login-academia .box-login form {
+  max-width: max-content;
+  margin: auto;
+  text-align: center;
+}
+
+.login-academia .box-login form div {
+  display: inline-flex;
+  align-items: center;
+  margin: 5px auto;
+  min-width: 365px;
+}
+
+.login-academia .box-login #btLoginAreaRestrita {
+  display: block;
+  align-items: center;
+  margin: 8px auto;
+  background: #3fa9f5!important;
+  border-radius: 0;
+  font-weight: bolder;
+}
+
+.login-academia .box-login form div label {
+  padding: 0 15px;
+  margin: auto;
+  min-width: 75px;
+  text-align: right;
+  font-weight: bolder;
+  text-transform: uppercase;
+
+}
+
+.login-academia .box-login form div input {
+  border-radius: 0;
+  min-width: 275px;
+}
+.login-academia .box-login {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  background: #0a2860;
+  display: inline-block;
+  position: relative;
+  max-width: 800px;
+  max-height: 80%;
+  color: #fff;
+  overflow-y: auto;
+  padding: 35px;
+}
 /* Slider */
 
 .slider {
@@ -50,6 +119,56 @@
 
 /* Modalidade */
 
+.form-options {
+
+}
+.form-options td {}
+
+.form-options td b {}
+
+.form-options td select {
+  padding: 8px 0px;
+  border: 1px solid black;
+  background: #fff;
+  width: 100%;
+}
+
+
+
+.form-options td #consultar {
+  background: #0a2860;
+  height: 100%;
+  padding: 9px 25px 11px 25px;
+  color: #fff!important;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.disponibilidade-academia  li span {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+.disponibilidade-academia  li span.disponivel {
+  background: #0a2860;
+}
+
+.disponibilidade-academia  li span.semAgenda {
+  background:  #cccccc;
+}
+
+.disponibilidade-academia  li span.agendaLotada {
+  background: #f04732;
+}
+.disponibilidade-academia  li {
+  display: inline-flex;
+}
+
+.disponibilidade-academia  li p {
+  padding: 0 15px;
+  display: inline-flex;
+  margin: auto;
+}
 .modalidades {
   position: fixed;
   bottom: 0;
@@ -66,10 +185,185 @@
   background: #3fa9f5;
 }
 
-.modalidades .titulo-wrapper p {
+ .modalidades .titulo-wrapper p {
   margin: auto;
   padding: 20px 60px;
   margin-left: 0;
   font-weight: bolder;
   font-size: 16px;
+}
+
+#conteudo .modalidades-links {
+  align-items: center;
+  display: flex;
+}
+#conteudo .modalidades-links ul {
+
+}
+#conteudo .modalidades-links ul li {
+  display: inline-flex;
+}
+#conteudo .modalidades-links ul li a {
+  color: #fff!important;
+  font-weight: bolder;
+}
+
+/* Tabela de agendamento */
+
+.conteudo-academia h4 {
+  font-weight: bolder;
+  font-size: 40px;
+  color: #0a2860;
+}
+.conteudo-academia ul li a {
+  font-size: 25px;
+}
+#agendamentos {
+  width: 100%;
+}
+#agendamentos thead {}
+#agendamentos thead tr {}
+#agendamentos thead tr th {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+#conteudo #agendamentos tbody tr td.diaLiberado {
+  background: #0a2860;
+  cursor: pointer;
+}
+
+#conteudo #agendamentos tbody tr td.diaLotado {
+  background: #f04732;
+}
+
+#agendamentos thead th {}
+
+
+#conteudo #agendamentos tbody tr td {
+  max-width: 14%;
+  background: #cecece;
+  border: 5px solid #fff;
+  height: 150px;
+  min-width: 14%;
+  width: 14%;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+
+}
+
+#conteudo #agendamentos tbody tr td a {
+  color: #fff!important;
+}
+
+
+/* Tabela disponibilidade de serviços */
+
+.disponibilidade-vagas-academia {
+  border-top: 2px solid #0d2860;
+  border-bottom: 2px solid #0d2860;
+  margin: 30px 0;
+}
+
+.disponibilidade-vagas-academia h5 {
+  padding: 15px 0;
+  font-weight: bolder;
+  color: #0d2860;
+}
+.tabela-disponibilidade-vagas {}
+
+.tabela-disponibilidade-vagas thead {
+
+}
+
+.tabela-disponibilidade-vagas thead tr {
+  background: #0d2860;
+  color: #fff
+}
+
+.tabela-disponibilidade-vagas thead tr th {
+  padding: 10px 5px;
+  width: 25%;
+}
+
+.tabela-disponibilidade-vagas tbody tr td, .tabela-disponibilidade-vagas tbody tr th {
+  padding: 10px 5px;
+  width: 25%;
+  color: #0d2860;
+  cursor: pointer;
+}
+
+
+/* Tabela disponibilidade de serviços */
+
+.disponibilidade-vagas-academia {
+  border-top: 2px solid #0d2860;
+  border-bottom: 2px solid #0d2860;
+  margin: 30px 0;
+}
+
+.disponibilidade-vagas-academia h5 {
+  padding: 15px 0;
+  font-weight: bolder;
+  color: #0d2860;
+}
+.tabela-disponibilidade-vagas {}
+
+.tabela-disponibilidade-vagas thead {
+
+}
+
+.tabela-disponibilidade-vagas thead tr {
+  background: #0d2860;
+  color: #fff
+}
+
+.tabela-disponibilidade-vagas thead tr th {
+  padding: 10px 5px;
+  width: 25%;
+}
+
+.tabela-disponibilidade-vagas tbody tr td, .tabela-disponibilidade-vagas tbody tr th {
+  padding: 10px 5px;
+  width: 25%;
+  color: #0d2860;
+  cursor: pointer;
+}
+
+/* Tabela comprovante de serviços */
+
+.disponibilidade-comprovante {
+  border-top: 2px solid #0d2860;
+  border-bottom: 2px solid #0d2860;
+  margin: 30px 0;
+}
+
+.comprovante-vagas-academia h5 {
+  padding: 15px 0;
+  font-weight: bolder;
+  color: #0d2860;
+}
+.comprovante-vagas-academia {}
+
+.comprovante-vagas-academia thead {
+
+}
+
+.comprovante-vagas-academia thead tr {
+
+}
+
+.comprovante-vagas-academia thead tr th {
+  padding: 10px 5px;
+  width: 25%;
+}
+
+.comprovante-vagas-academia tbody tr td, .comprovante-vagas-academia tbody tr th {
+  padding: 10px 5px;
+  width: 25%;
+  color: #0d2860;
 }
