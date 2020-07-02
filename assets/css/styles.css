@@ -533,7 +533,7 @@ body {
 @media only screen and (max-width: 480px) {
 
   #conteudo {
-    padding-left: 0px!important;
+    padding: 0 10px!important;
   }
   .header-academia h2 {
     background: #06275d;
