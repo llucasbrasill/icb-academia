@@ -4,6 +4,22 @@ body {
   margin-bottom: 80px;
 }
 
+/* Toogle bt TAG # */
+
+#comprovante-componente, #disponibilidade-vagas-academia {
+  display:none;
+}
+#comprovante-componente:target, #confirmar-vagas-academia:target,  #disponibilidade-vagas-academia:target{
+  display:block;
+}
+
+#login-academia, #confirmar-vagas-academia  {
+  display: none;
+}
+
+#login-academia:target {
+  display: inline-flex;
+}
 /* Tela de agendamentos */
 
 .tela_agendamentos-academia {
@@ -60,7 +76,58 @@ body {
   border: 0;
   font-weight: bolder;
 }
+
+.tela_agendamentos-academia .table th, .tela_agendamentos-academia  .table td {
+  font-size: 13px;
+  color: #0a2860;
 }
+
+.tela_agendamentos-academia .falta-icon ion-icon {
+  font-size: 25px;
+  color: #0a2860;
+  padding: 0 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.tela_agendamentos-academia .cancelar-icon ion-icon {
+  font-size: 15px;
+  background: #0a2860;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.tela_agendamentos-academia .comprovante-icon ion-icon {
+  font-size: 25px;
+  color: #0a2860;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.tela_agendamentos-academia .btn-iate {
+  border-radius: 0!important;
+  font-weight: bold;
+}
+
+
+.tela_agendamentos-academia .btn-close-academia {
+  float: right;
+  margin: 15px;
+  font-weight: bolder;
+  font-size: 20px;
+  background: #05183e;
+  border-radius: 50%;
+  padding: 10px 20px;
+  cursor: pointer;
+
+}
+
+
+.tela_agendamentos-academia {}
+
+
+.tela_agendamentos-academia {}
 /* Login Academia */
 
 .login-academia {
@@ -94,7 +161,7 @@ body {
   min-width: 365px;
 }
 
-.login-academia .box-login #btLoginAreaRestrita {
+.login-academia .box-login .btLoginAreaRestrita {
   display: block;
   align-items: center;
   margin: 8px auto;
@@ -131,7 +198,13 @@ body {
   overflow-y: auto;
   padding: 35px;
 }
-/* Slider */
+
+.slider {
+  margin: 30px 0;
+
+
+}
+/* Slider
 
 .slider {
   width: 100%;
@@ -142,7 +215,7 @@ body {
     background-size: cover;
   background-position: 50%;
 
-}
+} */
 
 /* Área de cabeçalho  */
 
@@ -177,6 +250,7 @@ body {
   padding: 10px 25px;
   min-width: 300px;
   float: right;
+  border: 0;
 }
 
 
