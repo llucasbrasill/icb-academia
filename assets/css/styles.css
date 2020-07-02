@@ -736,4 +736,8 @@ body {
   }
   .login-academia .box-login {}
   .login-academia .box-login {}
+
+  body {
+    margin-bottom: 180px;
+  }
 }
