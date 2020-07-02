@@ -708,4 +708,32 @@ body {
     padding: 8px 12px;
     cursor: pointer;
   }
+
+  .login-academia .box-login {
+    padding: 20px;
+    font-size: 10px;
+  }
+
+  .login-academia .box-login h5 {
+    font-size: 15px;
+  }
+  .login-academia .box-login form div input {
+    min-width: auto;
+  }
+  .login-academia .box-login form div {
+    min-width: auto;
+  }
+  .login-academia .box-login form div label {
+    padding: 0 15px;
+    margin: auto;
+    min-width: unset;
+    text-align: unset;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .login-academia .box-login p {
+    display: none;
+  }
+  .login-academia .box-login {}
+  .login-academia .box-login {}
 }
