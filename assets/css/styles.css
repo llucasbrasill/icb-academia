@@ -657,4 +657,33 @@ body {
   .modalidades {
     display: none;
   }
+
+  .disponibilidade-vagas-academia h5 {
+    font-size: 16px;
+  }
+
+  .tabela-disponibilidade-vagas tbody tr td, .tabela-disponibilidade-vagas tbody tr th {
+    font-size: 13px;
+  }
+
+  .confirmar-vagas-academia thead tr th, .comprovante-vagas-academia thead tr th {
+    padding: 5px 5px;
+    font-size: 13px;
+  }
+
+  .confirmar-vagas-academia tbody tr td, .confirmar-vagas-academia tbody tr th, .comprovante-vagas-academia tbody tr td, .comprovante-vagas-academia tbody {
+    padding: 0 5px;
+    font-size: 13px;
+    display: table-row-group;
+  }
+
+  .confirmar-vagas-academia tbody, .comprovante-vagas-academia tbody {
+    padding: 5px;
+    display: inline-block;
+  }
+
+  .btn-academia {
+    padding: 5px 15px;
+    font-size: 13px;
+  }
 }
