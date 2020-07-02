@@ -3,6 +3,60 @@
 body {
   margin-bottom: 80px;
 }
+
+/* Tela de agendamentos */
+
+.tela_agendamentos-academia {
+
+}
+
+
+.tela_agendamentos-academia  {
+  background: #000000ad;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999999999999999999999;
+  position: fixed;
+  display: flex;
+
+}
+
+.tela_agendamentos-academia {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.tela_agendamentos-academia .header-wrapper {
+  padding: 35px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.tela_agendamentos-academia .main-wrapper {
+  padding: 35px;
+  background: #fff;
+}
+
+.tela_agendamentos-academia  .box-agendamentos {
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  background: #0a2860;
+  display: inline-block;
+  position: relative;
+  max-width: 1200px;
+  max-height: 90%;
+  color: #fff;
+  overflow-y: auto;
+}
+
+.tela_agendamentos-academia  .box-agendamentos .table thead tr th {
+  color: #0a2860;
+}
 /* Login Academia */
 
 .login-academia {
@@ -120,6 +174,7 @@ body {
   min-width: 300px;
   float: right;
 }
+
 
 /* Modalidade */
 

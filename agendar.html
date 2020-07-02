@@ -75,7 +75,7 @@
           <div>
             <!-- Nome do serviço -->
             <h2 class="white-color">Gisnástica</h2>
-            <a id="link-servico" class="white-color" href="#">Voltar para o serviço online</a>
+            <a id="link-servico" class="white-color" href="#"><span class="shape-link"></span>Voltar para o serviço online</a>
           </div>
 
           <div>
@@ -341,10 +341,7 @@
           </table>
 
         </div>
-
-
         <!-- Consultar disponibilidade -->
-
         <div class="disponibilidade-vagas-academia py-4">
 
           <h5>CONSULTE A DISPONIBILIDADE DE VAGAS PARA OS SERVIÇOS DA ACADEMIA</h5>
@@ -375,9 +372,7 @@
           </table>
 
         </div>
-
         <!-- Confirmar Agendamento -->
-
         <div class="confirmar-vagas-academia py-4">
           <table class="tabela-confirmar w-100">
             <thead>
@@ -414,7 +409,6 @@
             </tfoot>
           </table>
         </div>
-
         <!-- Consultar comprovante -->
         <div class="comprovante-vagas-academia py-4">
 
@@ -469,9 +463,7 @@
           </table>
 
         </div>
-
         <!-- Login -->
-
         <div class="login-academia" style="display: none">
 
           <div class="box-login">
@@ -503,7 +495,57 @@
 
         </div>
 
+        <!--Gerenciar agendamentos -->
 
+        <div class="tela_agendamentos-academia" >
+
+
+
+          <div class="box-agendamentos">
+            <div class="header-wrapper">
+              AGENDA DE SERVIÇOS DA ACADEMIA<br>
+              Confira sua agenda de serviços da academia
+            </div>
+
+            <div class="main-wrapper">
+              <table class="table">
+                <thead>
+                <tr>
+                  <th scope="col">Nome</th>
+                  <th scope="col">Serviço</th>
+                  <th scope="col">Data do Serviço</th>
+                  <th scope="col">Falta</th>
+                  <th scope="col">Situação</th>
+                  <th scope="col">Cancelar</th>
+                  <th scope="col">Comprovante</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <th>IATE CLUBE DE BRASILIA - ACADEMIA </th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th>IATE CLUBE DE BRASILIA - ACADEMIA </th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th>IATE CLUBE DE BRASILIA - ACADEMIA </th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+        </div>
         <div class="modalidades container row p-0 m-auto">
 
           <div class="row col-3 p-0 m-0 titulo-wrapper">
@@ -536,52 +578,25 @@
 
 <footer id="rodape" class="container" role="contentinfo"></footer>
 
-<script type="d60f124d402d35f825e667ba-text/javascript">
-	window.onscroll = function() {myFunction()};
-
-	var header = document.getElementById("logomarca");
-	var headerMenu = document.getElementById("headerMenu");
-	var sticky = header.offsetTop;
-	function myFunction() {
-		if (window.pageYOffset > 0) {
-			header.classList.add("sticky");
-			headerMenu.classList.add("stickyMenu");
-		} else {
-			header.classList.remove("sticky");
-			headerMenu.classList.remove("stickyMenu");
-		}
-	}
-
-
-
-</script>
-<script src="https://vlibras.gov.br/app/vlibras-plugin.js" type="d60f124d402d35f825e667ba-text/javascript"></script>
-<script type="d60f124d402d35f825e667ba-text/javascript">
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
- </script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" type="d60f124d402d35f825e667ba-text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" type="d60f124d402d35f825e667ba-text/javascript"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" type="d60f124d402d35f825e667ba-text/javascript"></script>
-<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="d60f124d402d35f825e667ba-|49" defer=""></script></body>
-
+<div id="carrega-scripts"></div>
 
 <script>
-  // carrega o header
-  fetch("./header.html")
-    .then(response => {
-      return response.text()
-    })
-    .then(data => {
-      document.querySelector("header").innerHTML = data;
-    });
-  // carrega o rodapé
-  fetch("./footer.html")
-    .then(response => {
-      return response.text()
-    })
-    .then(data => {
-      document.querySelector("footer").innerHTML = data;
-    });
+
+  function carregaHtml(page, container){
+    console.log(`./${page}`);
+    fetch(`./${page}`)
+      .then(response => {
+        return response.text()
+      })
+      .then(data => {
+        document.querySelector(`${container}`).innerHTML = data;
+      });
+  }
+
+  carregaHtml("header.html", "header");
+  carregaHtml("footer.html", "footer");
+  carregaHtml("scripts-rodape.html", "carrega-scripts");
+
 
 </script>
 </html>
