@@ -31,7 +31,7 @@ body {
 }
 
 .tela_agendamentos-academia .header-wrapper {
-  padding: 35px;
+  padding: 15px 35px;
   font-size: 24px;
   font-weight: bold;
 }
@@ -56,6 +56,10 @@ body {
 
 .tela_agendamentos-academia  .box-agendamentos .table thead tr th {
   color: #0a2860;
+  text-transform: capitalize;
+  border: 0;
+  font-weight: bolder;
+}
 }
 /* Login Academia */
 
