@@ -686,4 +686,26 @@ body {
     padding: 5px 15px;
     font-size: 13px;
   }
+
+  .tela_agendamentos-academia .main-wrapper {
+    overflow: auto;
+    padding: 5px;
+  }
+
+  .tela_agendamentos-academia .header-wrapper {
+    padding: 15px 10px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .tela_agendamentos-academia .btn-close-academia {
+    float: right;
+    margin: 15px;
+    font-weight: bolder;
+    font-size: 10px;
+    background: #05183e;
+    border-radius: 50%;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
 }
