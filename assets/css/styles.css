@@ -528,3 +528,132 @@ body {
   font-weight: bolder;
   color: #fff;
 }
+
+
+@media only screen and (max-width: 480px) {
+
+  #conteudo {
+    padding-left: 0px!important;
+  }
+  .header-academia h2 {
+    background: #06275d;
+    width: max-content;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-left: 25px solid;
+    border-color: #3fa9f5;
+    display: flex;
+    float: left;
+    font-size: 15px;
+  }
+
+  .header-academia div #link-servico {
+    text-align: center;
+    background: #06275d;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 5px 0px;
+    min-width: 270px;
+    float: unset;
+    border: 0;
+    margin: 5px 0;
+  }
+
+  .header-academia div h3 {
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 15px 0;
+  }
+
+  .header-academia div p {
+    font-size: 13px;
+  }
+
+  .conteudo-academia h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #0a2860;
+  }
+
+  .conteudo-academia ul li a {
+    font-size: 15px;
+  }
+
+  .form-options td {
+    display: inline-block;
+    padding: 5px 0 0 0;
+    width: 50%;
+    font-size: 13px;
+  }
+
+  .form-options td select {
+    padding: 2px 0px;
+    border: 1px solid #0a2860;
+    background: #fff;
+    width: 100%;
+  }
+
+  .form-options td #consultar {
+    background: #0a2860;
+    height: 100%;
+    padding: 2px 25px;
+    color: #fff!important;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .disponibilidade-academia {
+    text-align: center;
+  }
+
+  .disponibilidade-academia li span {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+
+  .disponibilidade-academia li p {
+    padding: 0 4px;
+    display: inline-flex;
+    margin: auto;
+    font-size: 10px;
+  }
+  #conteudo #agendamentos tbody tr td a span {
+    display: none;
+  }
+  #conteudo #agendamentos tbody tr td {
+    max-width: 14px;
+    border: 2px solid #fff;
+    height: 60px;
+    min-width: 14px;
+    width: 14%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    min-height: 30px;
+    padding: 5px 0;
+  }
+
+  #agendamentos thead tr th {
+    font-size: 10px;
+  }
+
+  #conteudo #agendamentos tbody tr td img {
+    display: none;
+  }
+  #conteudo #agendamentos tbody tr td a {
+    font-size: 9px;
+  }
+  .modalidades {
+    display: none;
+  }
+}
