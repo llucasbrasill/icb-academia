@@ -10,13 +10,13 @@ body {
 }
 
 .modalidades-boxes ul:last-child {
-  justify-content: right;
+  justify-content: space-evenly;
 }
 
 .modalidades-boxes ul {
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .modalidades-boxes ul li {
