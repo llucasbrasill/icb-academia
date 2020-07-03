@@ -9,9 +9,12 @@ body {
   text-align: center;
 }
 
+.modalidades-boxes ul:last-child {
+  justify-content: right;
+}
+
 .modalidades-boxes ul {
   text-align: center;
-  justify-content: space-around;
   display: flex;
 }
 
