@@ -528,6 +528,445 @@ body {
   font-weight: bolder;
   color: #fff;
 }
+.ola-user {
+  float: right;
+  text-align: right;
+  font-size: 23px;
+  font-weight: 400;
+  color: #06275d;
+}
+
+@media only screen and (max-width: 960px) {
+
+  #conteudo {
+    padding-left: 10px!important;
+    padding: 0 10px!important;
+  }
+  .header-academia h2 {
+    background: #06275d;
+    width: max-content;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-left: 25px solid;
+    border-color: #3fa9f5;
+    display: flex;
+    float: left;
+    font-size: 15px;
+  }
+
+  .header-academia div #link-servico {
+    text-align: center;
+    background: #06275d;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 13px;
+    padding: 5px 0px;
+    min-width: 270px;
+    float: right;
+    border: 0;
+    margin: 0px 0 15px;
+  }
+
+  .header-academia div h3 {
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 15px 0;
+  }
+
+  .header-academia div p {
+    font-size: 13px;
+  }
+
+  .conteudo-academia h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #0a2860;
+  }
+
+  .conteudo-academia ul li a {
+    font-size: 15px;
+  }
+
+  .form-options td {
+    display: inline-block;
+    padding: 5px 0 0 0;
+    width: 50%;
+    font-size: 13px;
+  }
+
+  .form-options td select {
+    padding: 2px 0px;
+    border: 1px solid #0a2860;
+    background: #fff;
+    width: 100%;
+  }
+
+  .form-options td #consultar {
+    background: #0a2860;
+    height: 100%;
+    padding: 2px 25px;
+    color: #fff!important;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .disponibilidade-academia {
+    text-align: center;
+  }
+
+  .disponibilidade-academia li span {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+
+  .disponibilidade-academia li p {
+    padding: 0 4px;
+    display: inline-flex;
+    margin: auto;
+    font-size: 15px;
+  }
+  #conteudo #agendamentos tbody tr td a span {
+    display: none;
+  }
+  #conteudo #agendamentos tbody tr td {
+    max-width: 14px;
+    border: 2px solid #fff;
+    height: 100px;
+    min-width: 14px;
+    width: 14%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    min-height: 60px;
+    padding: 5px 0;
+  }
+
+  #agendamentos thead tr th {
+    font-size: 16px;
+  }
+
+  #conteudo #agendamentos tbody tr td img {
+    display: none;
+  }
+  #conteudo #agendamentos tbody tr td a {
+    font-size: 13px;
+  }
+  .modalidades {
+    display: none;
+  }
+
+  .disponibilidade-vagas-academia h5 {
+    font-size: 16px;
+  }
+
+  .tabela-disponibilidade-vagas tbody tr td, .tabela-disponibilidade-vagas tbody tr th {
+    font-size: 13px;
+  }
+
+  .confirmar-vagas-academia thead tr th, .comprovante-vagas-academia thead tr th {
+    padding: 5px 5px;
+    font-size: 13px;
+  }
+
+  .confirmar-vagas-academia tbody tr td, .confirmar-vagas-academia tbody tr th, .comprovante-vagas-academia tbody tr td, .comprovante-vagas-academia tbody {
+    padding: 0 5px;
+    font-size: 13px;
+    display: table-row-group;
+  }
+
+  .confirmar-vagas-academia tbody, .comprovante-vagas-academia tbody {
+    padding: 5px;
+    display: inline-block;
+  }
+
+  .btn-academia {
+    padding: 5px 15px;
+    font-size: 13px;
+  }
+
+  .tela_agendamentos-academia .main-wrapper {
+    overflow: auto;
+    padding: 5px;
+  }
+
+  .tela_agendamentos-academia .header-wrapper {
+    padding: 15px 10px;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .tela_agendamentos-academia .btn-close-academia {
+    float: right;
+    margin: 15px;
+    font-weight: bolder;
+    font-size: 10px;
+    background: #05183e;
+    border-radius: 50%;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .login-academia .box-login {
+    padding: 20px;
+    font-size: 10px;
+  }
+
+  .login-academia .box-login h5 {
+    font-size: 15px;
+  }
+  .login-academia .box-login form div input {
+    min-width: auto;
+  }
+  .login-academia .box-login form div {
+    min-width: auto;
+  }
+  .login-academia .box-login form div label {
+    padding: 0 15px;
+    margin: auto;
+    min-width: unset;
+    text-align: unset;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .login-academia .box-login p {
+    display: none;
+  }
+  .login-academia .box-login {}
+  .login-academia .box-login {}
+
+  body {
+    margin-bottom: 0px;
+  }
+
+  .tabela-disponibilidade-vagas tbody tr td img, .tabela-disponibilidade-vagas tbody tr th img {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 780px) {
+
+  #conteudo {
+    padding-left: 10px!important;
+    padding: 0 10px!important;
+  }
+  .header-academia h2 {
+    background: #06275d;
+    width: max-content;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-left: 25px solid;
+    border-color: #3fa9f5;
+    display: flex;
+    float: left;
+    font-size: 15px;
+  }
+
+  .header-academia div #link-servico {
+    text-align: center;
+    background: #06275d;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 13px;
+    padding: 5px 0px;
+    min-width: 270px;
+    float: right;
+    border: 0;
+    margin: 0px 0 15px;
+  }
+
+  .header-academia div h3 {
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 15px 0;
+  }
+
+  .header-academia div p {
+    font-size: 13px;
+  }
+
+  .conteudo-academia h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #0a2860;
+  }
+
+  .conteudo-academia ul li a {
+    font-size: 15px;
+  }
+
+  .form-options td {
+    display: inline-block;
+    padding: 5px 0 0 0;
+    width: 50%;
+    font-size: 13px;
+  }
+
+  .form-options td select {
+    padding: 2px 0px;
+    border: 1px solid #0a2860;
+    background: #fff;
+    width: 100%;
+  }
+
+  .form-options td #consultar {
+    background: #0a2860;
+    height: 100%;
+    padding: 2px 25px;
+    color: #fff!important;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .disponibilidade-academia {
+    text-align: center;
+  }
+
+  .disponibilidade-academia li span {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+
+  .disponibilidade-academia li p {
+    padding: 0 4px;
+    display: inline-flex;
+    margin: auto;
+    font-size: 15px;
+  }
+  #conteudo #agendamentos tbody tr td a span {
+    display: none;
+  }
+  #conteudo #agendamentos tbody tr td {
+    max-width: 14px;
+    border: 2px solid #fff;
+    height: 80px;
+    min-width: 14px;
+    width: 14%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    min-height: 60px;
+    padding: 5px 0;
+  }
+
+  #agendamentos thead tr th {
+    font-size: 10px;
+  }
+
+  #conteudo #agendamentos tbody tr td img {
+    display: none;
+  }
+  #conteudo #agendamentos tbody tr td a {
+    font-size: 9px;
+  }
+  .modalidades {
+    display: none;
+  }
+
+  .disponibilidade-vagas-academia h5 {
+    font-size: 16px;
+  }
+
+  .tabela-disponibilidade-vagas tbody tr td, .tabela-disponibilidade-vagas tbody tr th {
+    font-size: 13px;
+  }
+
+  .confirmar-vagas-academia thead tr th, .comprovante-vagas-academia thead tr th {
+    padding: 5px 5px;
+    font-size: 13px;
+  }
+
+  .confirmar-vagas-academia tbody tr td, .confirmar-vagas-academia tbody tr th, .comprovante-vagas-academia tbody tr td, .comprovante-vagas-academia tbody {
+    padding: 0 5px;
+    font-size: 13px;
+    display: table-row-group;
+  }
+
+  .confirmar-vagas-academia tbody, .comprovante-vagas-academia tbody {
+    padding: 5px;
+    display: inline-block;
+  }
+
+  .btn-academia {
+    padding: 5px 15px;
+    font-size: 13px;
+  }
+
+  .tela_agendamentos-academia .main-wrapper {
+    overflow: auto;
+    padding: 5px;
+  }
+
+  .tela_agendamentos-academia .header-wrapper {
+    padding: 15px 10px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .tela_agendamentos-academia .btn-close-academia {
+    float: right;
+    margin: 15px;
+    font-weight: bolder;
+    font-size: 10px;
+    background: #05183e;
+    border-radius: 50%;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .login-academia .box-login {
+    padding: 20px;
+    font-size: 10px;
+  }
+
+  .login-academia .box-login h5 {
+    font-size: 15px;
+  }
+  .login-academia .box-login form div input {
+    min-width: auto;
+  }
+  .login-academia .box-login form div {
+    min-width: auto;
+  }
+  .login-academia .box-login form div label {
+    padding: 0 15px;
+    margin: auto;
+    min-width: unset;
+    text-align: unset;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .login-academia .box-login p {
+    display: none;
+  }
+  .login-academia .box-login {}
+  .login-academia .box-login {}
+
+  body {
+    margin-bottom: 0px;
+  }
+
+
+}
 
 
 @media only screen and (max-width: 480px) {
@@ -740,4 +1179,6 @@ body {
   body {
     margin-bottom: 0px;
   }
+
+
 }
