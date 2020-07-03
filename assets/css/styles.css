@@ -1083,6 +1083,11 @@ body {
     margin: 10px 0!important;
   }
 
+  #conteudo .modalidades-links ul {
+    font-size: 13px;
+
+  }
+
 }
 
 
