@@ -26,7 +26,7 @@ body {
 }
 
 .modalidades-boxes ul li a img{
-
+  max-width: unset;
 }
 
 .modalidades-boxes ul li a p {
