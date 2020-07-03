@@ -16,12 +16,13 @@ body {
 .modalidades-boxes ul {
   text-align: center;
   display: flex;
+  justify-content: space-between;
 }
 
 .modalidades-boxes ul li {
   text-align: center;
   display: inline-flex;
-  margin: 10px 25px;
+  max-width: 280px;
 }
 
 .modalidades-boxes ul li a {
@@ -30,12 +31,14 @@ body {
 
 .modalidades-boxes ul li a img{
   max-width: unset;
+  width: 95%;
+  padding: 10%;
 }
 
 .modalidades-boxes ul li a p {
   font-weight: bolder;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 19px;
   padding: 15px 0;
 }
 /* Toogle bt TAG # */
