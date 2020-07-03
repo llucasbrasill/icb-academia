@@ -4,6 +4,37 @@ body {
   margin-bottom: 80px;
 }
 
+.modalidades-boxes {
+  margin: auto;
+  text-align: center;
+}
+
+.modalidades-boxes ul {
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.modalidades-boxes ul li {
+  text-align: center;
+  display: inline-flex;
+  margin: 10px 25px;
+}
+
+.modalidades-boxes ul li a {
+
+}
+
+.modalidades-boxes ul li a img{
+
+}
+
+.modalidades-boxes ul li a p {
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 15px 0;
+}
 /* Toogle bt TAG # */
 
 #comprovante-componente, #disponibilidade-vagas-academia {
@@ -536,7 +567,20 @@ body {
   color: #06275d;
 }
 
+
+@media only screen and (max-width: 1024px) {
+  .modalidades-boxes ul li a img {
+
+  }
+  .modalidades-boxes ul li a p {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: xx-small;
+    padding: 15px 0;
+  }
+}
 @media only screen and (max-width: 960px) {
+
 
   #conteudo {
     padding-left: 10px!important;
@@ -752,6 +796,24 @@ body {
   }
 
 
+
+  .modalidades-boxes ul li a p {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: x-small;
+    padding: 15px 0;
+  }
+
+  .modalidades-boxes ul li a img {
+    width: 100%;
+    height: auto;
+    min-width: unset;
+    max-width: 100px;
+  }
+
+
+
+
 }
 
 @media only screen and (max-width: 780px) {
@@ -965,6 +1027,21 @@ body {
     margin-bottom: 0px;
   }
 
+  .modalidades-boxes ul {
+    justify-content: space-between;
+    text-align: center;
+    display: initial;
+  }
+
+  .modalidades-boxes ul li {
+    text-align: center;
+    width: 100px;
+    display: inline-flex;
+    margin: 5px 10px;
+    max-width: 25%;
+    align-items: center;
+    justify-items: center;
+  }
 
 }
 
@@ -1188,5 +1265,23 @@ body {
   #conteudo #agendamentos tbody tr td a {
     font-size: 7px;
     display: inline-block;
+  }
+  .modalidades-boxes {
+    margin: auto;
+    text-align: center;
+  }
+  .modalidades-boxes ul {
+    justify-content: space-between;
+    text-align: center;
+    display: table;
+  }
+  .modalidades-boxes ul li {
+    text-align: center;
+    width: 100px;
+    display: inline-flex;
+    margin: 5px 10px;
+    max-width: 25%;
+    align-items: center;
+    justify-items: center;
   }
 }
