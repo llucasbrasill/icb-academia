@@ -1182,3 +1182,10 @@ body {
 
 
 }
+
+@media only screen and (max-width: 320px) {
+  #conteudo #agendamentos tbody tr td a {
+    font-size: 7px;
+    display: inline-block;
+  }
+}
