@@ -354,6 +354,8 @@ body {
   z-index: 99999;
 }
 
+.modalidades li:before { content: "- "; padding: 0 5px;}
+
 .modalidades .titulo-wrapper {
   text-align: center;
   justify-content: center;
@@ -714,7 +716,12 @@ body {
     font-size: 13px;
   }
   .modalidades {
-    display: none;
+    position: initial;
+    bottom: 0;
+    background: #0b2860;
+    color: #fff;
+    z-index: 99999;
+    font-size: 14px;
   }
 
   .disponibilidade-vagas-academia h5 {
@@ -950,7 +957,12 @@ body {
     font-size: 9px;
   }
   .modalidades {
-    display: none;
+    position: initial;
+    bottom: 0;
+    background: #0b2860;
+    color: #fff;
+    z-index: 99999;
+    font-size: 11px;
   }
 
   .disponibilidade-vagas-academia h5 {
@@ -1050,6 +1062,25 @@ body {
     max-width: 25%;
     align-items: center;
     justify-items: center;
+  }
+
+  .modalidades .titulo-wrapper p {
+    padding: 5px 5px;
+    margin-left: 0;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+  }
+
+  #conteudo .modalidades-links ul {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .modalidades {
+    font-size: 11px;
+    margin: 10px 0!important;
   }
 
 }
@@ -1181,7 +1212,12 @@ body {
     font-size: 9px;
   }
   .modalidades {
-    display: none;
+    position: initial;
+    bottom: 0;
+    background: #0b2860;
+    color: #fff;
+    z-index: 99999;
+    font-size: 9px;
   }
 
   .disponibilidade-vagas-academia h5 {
